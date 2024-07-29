@@ -1,25 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     margin-bottom: 40px;
+    background-image: url('https://res.cloudinary.com/dmqvn9sj8/image/upload/v1722038914/About_me_2_jivmq7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
-    background: #333;
     color: #fff;
-    padding: 1rem 0;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
+    background-image: url('https://res.cloudinary.com/dmqvn9sj8/image/upload/v1722050420/About_me_800_x_200_px_gmsrni.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbar-fixed {
@@ -54,7 +52,41 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.btn-banner{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: none;
+    margin: 25px 30px 15px;
+}
 
-#about{
+.btn-banner:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textcar{
+    color: black;
+}
+
+
+.content{
+    display: none;
     text-align: center;
+}
+
+.form-group{
+    margin-bottom: 2%;
+}
+
+.btn-send{
+    display: flex;
+}
+
+.img-am{
+    width: 45%;
+    margin-bottom: 9px;
+}
+
+h3{
+    margin-top: 2%;
+    margin-bottom: 2% ;
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas Pendientes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Lista de Tareas Pendientes</h1>
+    <button id="botonFormulario">Agregar tarea</button>
+    <form id="formularioTareas" style="display: none;">
+        <input type="text" id="textoInput" placeholder="Nueva tarea">
+        <button type="submit">Agregar</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Tarea</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="listaTareas"></tbody>
+    </table>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
